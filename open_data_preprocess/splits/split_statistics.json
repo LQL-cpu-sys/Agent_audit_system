@@ -1,0 +1,12 @@
+{
+  "split_ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "split_sizes": {
+    "train": 9359,
+    "val": 1998,
+    "test": 2022
+  }
+}

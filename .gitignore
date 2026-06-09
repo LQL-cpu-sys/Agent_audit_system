@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+
+# Models
+*.pkl
+*.h5
+*.pb
+*.onnx
+
+# Gradio
+.gradio/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+safety_data/
+*.arrow
+
+# API Keys (重要！)
+agents/input_parser.py

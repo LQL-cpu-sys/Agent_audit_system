@@ -1,0 +1,25 @@
+{
+    "description": "AI Agent 动作风险评级与敏感目标黑名单配置表",
+    "version": "1.0",
+    "action_risk_map": {
+      "search_web": "low",
+      "summarize_text": "low",
+      "calculate_math": "low",
+      "read_file": "medium",
+      "send_email": "medium",
+      "write_file": "high",
+      "delete_file": "high",
+      "modify_permissions": "high",
+      "execute_python_code": "critical",
+      "execute_shell_command": "critical",
+      "unknown": "medium"
+    },
+    "sensitive_targets_regex": [
+      "/etc/passwd",
+      "/etc/shadow",
+      "~/.ssh",
+      "C:\\Windows\\System32",
+      "password",
+      "secret_key"
+    ]
+  }

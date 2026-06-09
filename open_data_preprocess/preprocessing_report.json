@@ -1,0 +1,42 @@
+{
+  "report_date": "2026-05-17T12:57:48.163148",
+  "input_file": "/root/autodl-tmp/Agent_audit_system/open_data/redteam_prompt_benchmark.json",
+  "preprocessing_statistics": {
+    "total_original": 13705,
+    "total_after_dedup": 13661,
+    "total_after_cleaning": 13379,
+    "duplicates_removed": 44,
+    "cleaned_samples": 282,
+    "labeled_samples": 0,
+    "rtpb2026_converted": 13705
+  },
+  "category_distribution": {
+    "Role Play": 1495,
+    "Narrative Encapsulation": 1971,
+    "Context Isolation": 9,
+    "Structural Manipulation": 1639,
+    "indirect injection": 1159,
+    "emotional extortion": 905,
+    "token obfuscation": 2637,
+    "pseudo-technical injection": 46,
+    "constraint override": 2390,
+    "adoption of authority": 10,
+    "logic inversion": 12,
+    "legal gaslighting": 245,
+    "forced output validation": 624,
+    "payload stretching": 237
+  },
+  "risk_level_distribution": {
+    "Low": 2524,
+    "Critical": 974,
+    "High": 4238,
+    "Medium": 5643
+  },
+  "complexity_distribution": {
+    "Moderate": 2418,
+    "Complex": 4899,
+    "Very Complex": 3398,
+    "Simple": 2664
+  },
+  "total_prompts": 13379
+}
